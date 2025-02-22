@@ -1,5 +1,4 @@
-Note: I tried to test their knowledge on setting up an Interface and implementing it with both a class and a record. 
-Tried to include some polymorphism in the Tester. I thought making them include Comparable might be too much for a quiz problem, 
+Note: I tried to focus on their knowledge of setting up an Interface and implementing it with both a class and a record. I didn't add any method logic for them to get stuck on, but that might make it too easy to cheat... Tried to include some polymorphism in the Tester. I thought including Comparable might be too much for a quiz problem, 
 but it'd be easy to add (order based on number of plants?). This is my first time trying to write a problem.
 
 ## Problem description:
