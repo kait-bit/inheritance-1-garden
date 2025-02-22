@@ -18,7 +18,7 @@ Write a Tester class where you will instantiate one FruitPatch object and two Ve
 
 Store all of these objects in a single ArrayList, then loop through the list to print the total number of plants in all of your gardens.
 
-Sample output:
+### Sample output:
 <br>>You successfully water the strawberries.
 <br>>Your 20 strawberries are ripe!
 <br>>You successfully water the carrots.
