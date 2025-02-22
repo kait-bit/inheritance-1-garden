@@ -1,12 +1,12 @@
 public class FruitPatch implements Garden {
     private int numPlants;
-    private Boolean ripeness;
     private final String fruit;
+    private Boolean ripeness;
 
     public FruitPatch(int numPlants, String fruit) {
         this.numPlants = numPlants;
-        this.ripeness = false;
         this.fruit = fruit;
+        this.ripeness = false;
     }
 
     @Override public int numPlants() {
