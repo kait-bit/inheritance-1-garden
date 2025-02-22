@@ -15,7 +15,7 @@ The toString for FruitPatch should print the number of fruit in the garden and w
 
 Write a Tester class where you will instantiate one FruitPatch object and two VegPatch objects.
 
-Store all of these objects in a single ArrayList, then loop through the list to print the output of water and toString for each object and count the total number of plants in all of your gardens.
+Store all of these objects in a single ArrayList, then loop through the list to print the output of water() and toString() for each object and count the total number of plants in all of your gardens.
 
 ### Sample output:
 <br>>You successfully water the strawberries.
