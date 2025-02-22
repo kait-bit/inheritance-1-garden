@@ -11,11 +11,11 @@ The water method should return a String stating the number of fruits/veg that we
 
 FruitPatch and VegPatch should both implement the interface. They should both accept the parameters number of plants and fruit/veg name. FruitPatch should store an additional field, ripeness, that is initialized to false in the constructor then set to true in the water method.
 
-The toString for FruitPatch should print the number of fruit in the garden and whether or not they are ripe. The toString for VegPatch should print the number of veg in the garden.
+The toString for FruitPatch should print the number of fruit in the garden and whether they are ripe. The toString for VegPatch should print the number of veg in the garden.
 
-Write a Tester class where you will instantiate one FruitPatch object and two VegPatch objects. For each object print the results of the water method, then the toString.
+Write a Tester class where you will instantiate one FruitPatch object and two VegPatch objects.
 
-Store all of these objects in a single ArrayList, then loop through the list to print the total number of plants in all of your gardens.
+Store all of these objects in a single ArrayList, then loop through the list to print the results of water and toString for each object and count the total number of plants in all of your gardens.
 
 ### Sample output:
 <br>>You successfully water the strawberries.
