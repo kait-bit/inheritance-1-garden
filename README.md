@@ -1,30 +1,20 @@
 Note: I tried to test their knowledge on setting up an Interface and implementing it with both a class and a record. 
 Tried to include some polymorphism in the Tester. I thought making them include Comparable might be too much for a quiz problem, 
-but it'd be easy to add (order based on number of plants?). This is my first time trying to write a problem, so I might have given 
-away too much in the description.
+but it'd be easy to add (order based on number of plants?). This is my first time trying to write a problem.
 
 ## Problem description:
 
-Write an interface named Garden with two abstract methods:
-- numPlants of return type int.
-- water of return type String.
+Model the relationship between an interface Garden and the class FruitPatch and record VegPatch.
 
-Create a class FruitPatch and a record VegPatch that each implement the Garden interface.
+The Garden interface should have two abstract methods: 1. number of plants and 2. water.
 
-FruitPatch class:
-- Accepts parameters numPlants and fruit name.
-- Include a field to store ripeness (Boolean).
-- Override the water method to set ripeness to true and return a String stating the number of fruit that were watered.
+The water method should return a String stating the number of fruits/veg that were watered.
 
-VegPatch record:
-- Accepts parameters numPlants and veg name.
-- Override the water method to return a String stating the number of vegetables that were watered.
+FruitPatch and VegPatch should both implement the interface. They should both accept the parameters number of plants and fruit/veg name. FruitPatch should store an additional field, ripeness, that is initialized to false in the constructor then set to true in the water method.
 
-Tester class:
-- Create an ArrayList that can hold both FruitPatch and VegPatch objects.
-- Instantiate and add one FruitPatch object to the ArrayList.
-- Instantiate and add two VegPatch objects to the ArrayList.
-- Use the ArrayList and a loop to print the total number of plants in all gardens.
+Write a Tester class where you will instantiate one FruitPatch object and two VegPatch objects. Print the results of the water method for each object.
+
+Store all of these objects in a single ArrayList, then loop through the list to print the total number of plants in all of your gardens.
 
 Sample output:
 <br>>You water 20 strawberries.
