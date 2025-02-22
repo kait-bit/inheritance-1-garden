@@ -1,3 +1,8 @@
+Note: I tried to test their knowledge on setting up an Interface and implementing it with both a class and a record. 
+Tried to include some polymorphism in the Tester. I thought making them include Comparable might be too much for a quiz problem, 
+but it'd be easy to add (order based on number of plants?). This is my first time trying to write a problem, so I might have given 
+away too much in the description.
+
 ## Problem description:
 
 Write an interface named Garden with two abstract methods:
