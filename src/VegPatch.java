@@ -1,6 +1,6 @@
-public record VegPatch(String veg) implements Garden {
+public record VegPatch(int numPlants, String veg) implements Garden {
     @Override public String water() {
-        return "You water the " + veg + ".";
+        return "You water " + numPlants + " " + veg + ".";
     }
 
     public String shooRabbit() {

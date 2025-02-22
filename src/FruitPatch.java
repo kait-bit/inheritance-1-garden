@@ -1,10 +1,16 @@
 public class FruitPatch implements Garden {
+    private int numPlants;
     private Boolean ripeness;
     private final String fruit;
 
-    public FruitPatch(String fruit) {
+    public FruitPatch(int numPlants, String fruit) {
+        this.numPlants = numPlants;
         this.ripeness = false;
         this.fruit = fruit;
+    }
+
+    @Override public int numPlants() {
+        return numPlants;
     }
 
     public Boolean getRipeness() {
@@ -17,6 +23,6 @@ public class FruitPatch implements Garden {
 
     @Override public String water() {
         ripeness = true;
-        return "You water the " + fruit + ".";
+        return "You water " + numPlants + " " + fruit + ".";
     }
 }
