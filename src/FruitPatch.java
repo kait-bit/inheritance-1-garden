@@ -21,10 +21,10 @@ public class FruitPatch implements Garden {
         return fruit;
     }
 
-    public int setNumPlants(int numPlants) {
+    public void setNumPlants(int numPlants) {
         this.numPlants = numPlants;
     }
-    
+
     @Override public String water() {
         ripeness = true;
         return "You water " + numPlants + " " + fruit + ".";
