@@ -1,7 +1,7 @@
 public class FruitPatch implements Garden {
     private int numPlants;
     private final String fruit;
-    private Boolean ripeness;
+    private boolean ripeness;
 
     public FruitPatch(int numPlants, String fruit) {
         this.numPlants = numPlants;
@@ -13,7 +13,7 @@ public class FruitPatch implements Garden {
         return numPlants;
     }
 
-    public Boolean getRipeness() {
+    public boolean getRipeness() {
         return ripeness;
     }
 
